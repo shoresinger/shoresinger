@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./shoresinger.svg" alt="shoresinger — selkie at the threshold" width="256" height="256"/>
+<img src="./shoresinger.gif" alt="shoresinger — selkie at the threshold" width="256" height="256"/>
 
 </div>
 
