@@ -1,17 +1,6 @@
 <div align="center">
 
-```
-                   ♪
-
-
-           _____________
-         ~~~( o . o )~~~
-        ~~~~~~~~~~~~~~~~~
-       ~~~~~~~~~~~~~~~~~~~
-
-
-            shoresinger
-```
+<img src="./shoresinger.svg" alt="shoresinger — selkie at the threshold" width="256" height="256"/>
 
 </div>
 

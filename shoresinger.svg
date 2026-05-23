@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="shoresinger — selkie at the threshold, animated">
+  <title>shoresinger</title>
+  <desc>A selkie barely breaching the surface at the threshold between sea and sky, with a warm musical note above. Cyan-on-dark.</desc>
+
+  <!-- background -->
+  <rect width="256" height="256" fill="#0d1117"/>
+
+  <!-- musical note, amber, gentle pulse -->
+  <g transform="translate(128, 56)">
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#f0b35a">
+      ♪
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- the sea group — gently sways vertically -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -2; 0 0; 0 2; 0 0"
+      dur="6s"
+      repeatCount="indefinite"
+      additive="sum"/>
+
+    <!-- selkie head — barely breaching at the horizon line (y≈140) -->
+    <g stroke="#56d4dd" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <!-- head curve -->
+      <path d="M 100 140 Q 128 122 156 140" />
+      <!-- left eye -->
+      <circle cx="116" cy="134" r="1.8" fill="#56d4dd" stroke="none"/>
+      <!-- right eye -->
+      <circle cx="140" cy="134" r="1.8" fill="#56d4dd" stroke="none"/>
+      <!-- subtle whisker hint / nose dot -->
+      <circle cx="128" cy="138" r="0.8" fill="#56d4dd" stroke="none" opacity="0.7"/>
+    </g>
+
+    <!-- wave lines — three layers, each slightly offset, building depth -->
+    <g stroke="#3aa4ad" fill="none" stroke-width="1.4" stroke-linecap="round">
+      <!-- top wave, right at the horizon — partial, gives the breaching effect -->
+      <path d="M 28 142 Q 60 138 92 142 T 108 142  M 148 142 Q 172 138 196 142 T 228 142" opacity="0.9"/>
+    </g>
+
+    <g stroke="#2d8e96" fill="none" stroke-width="1.4" stroke-linecap="round">
+      <path d="M 16 158 Q 48 152 80 158 T 144 158 T 208 158 T 240 158" opacity="0.85"/>
+    </g>
+
+    <g stroke="#256e75" fill="none" stroke-width="1.4" stroke-linecap="round">
+      <path d="M 12 176 Q 44 170 76 176 T 140 176 T 204 176 T 244 176" opacity="0.78"/>
+      <path d="M 16 194 Q 48 188 80 194 T 144 194 T 208 194 T 240 194" opacity="0.7"/>
+      <path d="M 12 212 Q 44 206 76 212 T 140 212 T 204 212 T 244 212" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- label, monospace, bottom-center, restrained -->
+  <text x="128" y="240" text-anchor="middle"
+        font-family="ui-monospace, 'SF Mono', Menlo, Monaco, 'Cascadia Code', monospace"
+        font-size="11" fill="#56d4dd" letter-spacing="2">
+    shoresinger
+  </text>
+</svg>
